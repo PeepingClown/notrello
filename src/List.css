@@ -1,0 +1,35 @@
+.ListInput {
+  margin: 20px 20px 10px 20px;
+  width: 230px;
+  height: 40px;
+  border-radius: 5px;
+  border-width: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  opacity: 0.5;
+  transition-duration: 0.2s;
+}
+
+.ListInput:focus {
+  outline: none;
+}
+
+.ListInput:hover {
+  opacity: 0.7;
+}
+
+.ListBox {
+  background-color: rgb(193, 231, 243);
+  width: 280px;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.ListForm {
+  padding: 5px 5px 15px;
+}
+
+.ListHeading {
+  margin: 10px 20px 0px 20px;
+}
